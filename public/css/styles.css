@@ -1,0 +1,71 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    padding: 1rem;
+    margin: 0;
+    max-width: 700px;
+    margin: 0 auto;
+    height: 100vh;
+}
+
+h1 {
+    color:#333333;
+    font-size: 64px;
+    margin: 1.5rem 0;
+}
+
+p {
+    color: #333333;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.main_content {
+    display: flex;
+    flex-direction: column;
+    height: calc(100% - 5rem);
+}
+
+#message-2  {
+    margin: 0;
+}
+
+.main_content nav {
+    margin-bottom: 2rem;
+    font-size: 20px;
+}
+
+.main_content nav a{
+    color: grey;
+   text-decoration: none;
+   margin: 0.5rem;
+   padding: 0.5rem;
+   border-bottom: 1px solid darkgray;
+}
+
+input[type=text] {
+    padding: 0.5rem;
+    border:1px solid #cccc;
+    margin-right: 0.5rem;
+}
+
+input[type=submit] {
+    padding: 0.5rem 1rem;
+    background-color: grey;
+    color: white;
+    cursor: pointer;
+    border: 1px solid darkgray;
+    border-radius: 5px;
+}
+
+.main_content img {
+    width: 300px;
+    margin-top: 1rem;
+}
+ footer {
+     color: #333333;
+     height: 3.5rem;
+     padding: 1rem;
+     border-top: 2px solid rgb(236, 230, 230);
+ }
