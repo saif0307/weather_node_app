@@ -33,6 +33,7 @@ app.get("/about", (req, res) => {
   res.render("about.hbs", {
     name: "Muhammad Saif",
     title: "About",
+    info:"This app was created by Muhammad Saif. This pulls data form mapbox and weatherstack api's"
   });
 });
 

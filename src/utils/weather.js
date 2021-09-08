@@ -9,7 +9,7 @@ const weather = (latitude, longitude, callback) => {
         } else if(body.error) {
             callback('Search for a different location', undefined)
         } else {
-            callback(undefined, `Record time: ${body.current.observation_time}. The temp is ${body.current.temperature}C. There is ${body.current.precip}% chance of rain. `)
+            callback(undefined, `Record time: ${body.current.observation_time}. The temp is ${body.current.temperature}C. There is ${body.current.precip}% chance of rain. Humidity is ${body.current.humidity} `)
         }
     })
 }
